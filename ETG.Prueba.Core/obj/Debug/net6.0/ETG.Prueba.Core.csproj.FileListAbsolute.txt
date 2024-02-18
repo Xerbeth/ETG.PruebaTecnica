@@ -1,0 +1,11 @@
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\bin\Debug\net6.0\ETG.Prueba.Core.deps.json
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\bin\Debug\net6.0\ETG.Prueba.Core.dll
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\bin\Debug\net6.0\ETG.Prueba.Core.pdb
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\obj\Debug\net6.0\ETG.Prueba.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\obj\Debug\net6.0\ETG.Prueba.Core.AssemblyInfoInputs.cache
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\obj\Debug\net6.0\ETG.Prueba.Core.AssemblyInfo.cs
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\obj\Debug\net6.0\ETG.Prueba.Core.csproj.CoreCompileInputs.cache
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\obj\Debug\net6.0\ETG.Prueba.Core.dll
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\obj\Debug\net6.0\refint\ETG.Prueba.Core.dll
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\obj\Debug\net6.0\ETG.Prueba.Core.pdb
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Prueba.Core\obj\Debug\net6.0\ref\ETG.Prueba.Core.dll

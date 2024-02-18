@@ -1,0 +1,15 @@
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\bin\Debug\net6.0\ETG.Prueba.Application.deps.json
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\bin\Debug\net6.0\ETG.Prueba.Application.dll
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\bin\Debug\net6.0\ETG.Prueba.Application.pdb
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\obj\Debug\net6.0\ETG.Prueba.Application.csproj.AssemblyReference.cache
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\obj\Debug\net6.0\ETG.Prueba.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\obj\Debug\net6.0\ETG.Prueba.Application.AssemblyInfoInputs.cache
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\obj\Debug\net6.0\ETG.Prueba.Application.AssemblyInfo.cs
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\obj\Debug\net6.0\ETG.Prueba.Application.csproj.CoreCompileInputs.cache
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\obj\Debug\net6.0\ETG.Prueba.Application.dll
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\obj\Debug\net6.0\refint\ETG.Prueba.Application.dll
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\obj\Debug\net6.0\ETG.Prueba.Application.pdb
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\obj\Debug\net6.0\ref\ETG.Prueba.Application.dll
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\bin\Debug\net6.0\ETG.Prueba.Core.dll
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\bin\Debug\net6.0\ETG.Prueba.Core.pdb
+C:\Users\faibe\source\repos\ETG.PruebaTecnica\ETG.Application\obj\Debug\net6.0\ETG.Prueba.Application.csproj.CopyComplete

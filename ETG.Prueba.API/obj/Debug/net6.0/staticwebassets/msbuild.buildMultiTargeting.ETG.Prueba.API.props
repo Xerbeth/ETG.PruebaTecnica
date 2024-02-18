@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ETG.Prueba.API.props" />
+</Project>
