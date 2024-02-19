@@ -42,7 +42,7 @@ namespace ETG.Prueba.API.Controllers
         /// <summary>
         /// Método para actualizar un registro de producto
         /// </summary>        
-        /// <param name="producto"> Objeto de datos para actulizar </param>
+        /// <param name="producto"> Objeto de datos para actualizar </param>
         /// <returns> Resultado de la transacción </returns>
         //[Authorize]
         [HttpPut("UpdateProduct")]
@@ -73,8 +73,8 @@ namespace ETG.Prueba.API.Controllers
         [HttpGet("GetAllProducts")]
         public async Task<IActionResult>GetAllProducts()
         {
-            var getAllUsers = await _productoServices.GetAllProducts();            
-            return Ok(getAllUsers);
+            var getAllProducts = await _productoServices.GetAllProducts();            
+            return Ok(getAllProducts);
         }
 
         /// <summary>

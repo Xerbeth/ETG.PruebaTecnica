@@ -64,7 +64,7 @@ namespace ETG.Prueba.Application.Services
         /// <summary>
         /// Método para actualizar un registro de producto
         /// </summary>        
-        /// <param name="producto"> Objeto de datos para actulizar </param>
+        /// <param name="producto"> Objeto de datos para actualizar </param>
         /// <returns></returns>
         /// <exception cref="NotImplementedException"> Excepcion personalizada para la actualización de productos </exception>
         public async Task<ApiResponse<bool>> UpdateProduct(ProductoDTO producto)
