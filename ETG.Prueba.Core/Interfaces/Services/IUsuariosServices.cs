@@ -10,8 +10,6 @@ namespace ETG.Prueba.Core.Interfaces.Services
         Task<ApiResponse<bool>> UpdateUser(UsuariosDTO usuario);
         Task<ApiResponse<bool>> DeleteUser(int idUsuario);         
         Task<ApiResponse<List<UsuariosDTO>>> GetAllUsers();
-        Task<ApiResponse<UsuariosDTO>> GetUserById(int id);
-
-
+        Task<ApiResponse<UsuariosDTO>> GetUserById(int idUsuario);
     }
 }

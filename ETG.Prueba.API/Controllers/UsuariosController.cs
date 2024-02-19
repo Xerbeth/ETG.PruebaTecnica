@@ -14,7 +14,7 @@ namespace ETG.Prueba.API.Controllers
     {
         #region Propiedades
         #region Dependencias
-        private readonly IUsuariosServices usuariosServices;
+        private readonly IUsuariosServices _usuariosServices;
         #endregion Dependencias
         #endregion Propiedades
 
@@ -22,7 +22,7 @@ namespace ETG.Prueba.API.Controllers
         #region Constructor
         public UsuariosController(IUsuariosServices usuariosServices)
         {
-            this.usuariosServices = usuariosServices;
+            this._usuariosServices = usuariosServices;
         }
         #endregion Constructor        
 
@@ -35,7 +35,7 @@ namespace ETG.Prueba.API.Controllers
         [HttpPost("CreateUser")]
         public async Task<IActionResult> CreateUser(UsuariosDTO usuario)
         {
-            var createUser = await usuariosServices.CreateUser(usuario);
+            var createUser = await _usuariosServices.CreateUser(usuario);
             return Ok(createUser);
         }
 
@@ -48,7 +48,7 @@ namespace ETG.Prueba.API.Controllers
         [HttpPut("UpdateUser")]
         public async Task<IActionResult> UpdateUser(UsuariosDTO usuario)
         {
-            var updateUser = await usuariosServices.UpdateUser(usuario);            
+            var updateUser = await _usuariosServices.UpdateUser(usuario);            
             return Ok(updateUser);
         }
 
@@ -61,19 +61,19 @@ namespace ETG.Prueba.API.Controllers
         [HttpDelete("DeleteUser/{idUsuario}")]
         public async Task<IActionResult> DeleteArea(int idUsuario)
         {
-            var deleteUser = await usuariosServices.DeleteUser(idUsuario);
+            var deleteUser = await _usuariosServices.DeleteUser(idUsuario);
             return Ok(deleteUser);
-        }        
+        }
 
         /// <summary>
         /// Método para consultar todos los registros de los usuarios
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Lista con la información de los usuarios </returns>
         //[Authorize]
         [HttpGet("GetAllUsers")]
         public async Task<IActionResult>GetAllUsers()
         {
-            var getAllUsers = await usuariosServices.GetAllUsers();            
+            var getAllUsers = await _usuariosServices.GetAllUsers();            
             return Ok(getAllUsers);
         }
 
@@ -86,7 +86,7 @@ namespace ETG.Prueba.API.Controllers
         [HttpGet("GetUserById/{idUsuario}")]
         public async Task<IActionResult> GetUserById(int idUsuario)
         {
-            var getUserById = await usuariosServices.GetUserById(idUsuario);
+            var getUserById = await _usuariosServices.GetUserById(idUsuario);
             return Ok(getUserById);
         }
         #endregion Métodos
