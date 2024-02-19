@@ -6,6 +6,12 @@ namespace ETG.Prueba.Core.Interfaces.Services
 {
     public interface IUsuariosServices
     {
-        Task<List<UsuariosDTO>> GetAllUsers();
+        Task<ApiResponse<bool>> CreateUser(UsuariosDTO usuario);
+        Task<ApiResponse<bool>> UpdateUser(UsuariosDTO usuario);
+        Task<ApiResponse<bool>> DeleteUser(int idUsuario);         
+        Task<ApiResponse<List<UsuariosDTO>>> GetAllUsers();
+        Task<ApiResponse<UsuariosDTO>> GetUserById(int id);
+
+
     }
 }
